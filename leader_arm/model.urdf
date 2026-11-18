@@ -98,7 +98,7 @@
     <link name="Link_4L">
     <inertial>
       <mass value="0.216"/>
-      <origin rpy="0 0 0" xyz="0.03177 0.01631 0.01925"/>
+      <origin rpy="0 0 0" xyz="0.03177 0.01631 -0.05655"/>
       <inertia ixx="0.00023331" ixy="0.00000268" ixz="0.00003024" iyy="0.00025797" iyz="-0.00000309" izz="0.00007860"/>
     </inertial>
 
@@ -224,7 +224,7 @@
   <link name="Link_4R">
     <inertial>
       <mass value="0.216"/>
-      <origin rpy="0 0 0" xyz="0.03177 -0.01631 0.01925"/>
+      <origin rpy="0 0 0" xyz="0.03177 -0.01631 -0.05655"/>
       <inertia ixx="0.00023331" ixy="-0.00000268" ixz="0.00003024" iyy="0.00025797" iyz="0.00000309" izz="0.00007860"/>
     </inertial>
 
@@ -316,7 +316,7 @@
     <joint name="J11_Wrist_Yaw1_L" type="revolute">
     <parent link="Link_3L"/>
     <child link="Link_4L"/>
-    <origin rpy="0.0 0.0 0.0" xyz="-0.031 0.0 -0.14165"/>
+    <origin rpy="0.0 0.0 0.0" xyz="-0.031 0.0 -0.066"/>
     <axis xyz="0 0 1"/>
     <limit effort="1000.0" lower="-2.705260338" upper="2.705260338" velocity="3.14159265"/>
   </joint>
@@ -324,7 +324,7 @@
     <joint name="J12_Wrist_Pitch_L" type="revolute">
     <parent link="Link_4L"/>
     <child link="Link_5L"/>
-    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 -0.078"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 -0.15365"/>
     <axis xyz="0 1 0"/>
     <limit effort="1000.0" lower="-2.268928025" upper="2.0943951" velocity="3.14159265"/>
   </joint>
@@ -372,7 +372,7 @@
     <joint name="J4_Wrist_Yaw1_R" type="revolute">
     <parent link="Link_3R"/>
     <child link="Link_4R"/>
-    <origin rpy="0.0 0.0 0.0" xyz="-0.031 0.0 -0.14165"/>
+    <origin rpy="0.0 0.0 0.0" xyz="-0.031 0.0 -0.066"/>
     <axis xyz="0 0 1"/>
     <limit effort="1000.0" lower="-2.705260338" upper="2.705260338" velocity="3.14159265"/>
   </joint>
@@ -380,7 +380,7 @@
     <joint name="J5_Wrist_Pitch_R" type="revolute">
     <parent link="Link_4R"/>
     <child link="Link_5R"/>
-    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 -0.078"/>
+    <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 -0.15365"/>
     <axis xyz="0 1 0"/>
     <limit effort="1000.0" lower="-2.268928025" upper="2.0943951" velocity="3.14159265"/>
   </joint>
