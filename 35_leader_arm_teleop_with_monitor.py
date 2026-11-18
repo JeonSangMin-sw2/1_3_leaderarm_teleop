@@ -1564,7 +1564,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--address", type=str, required=True, help="Robot address")
     parser.add_argument(
-        "--model", type=str, default="a", help="Robot Model Name (default: 'a')"
+        "--model", type=str, default="m", help="Robot Model Name (default: 'm')"
     )
     parser.add_argument(
         "--power",
